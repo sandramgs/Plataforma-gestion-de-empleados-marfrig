@@ -67,7 +67,7 @@ def validar_login(usuario,password):
 def validar_usuario(usuario):
     for i in range(len(lista_usuarios)):
         if lista_usuarios[i]["usuario"] == usuario:
-            if lista_usuarios[i]["password" == None]:
+            if lista_usuarios[i]["password"] == None:
                 return True
 
     return False  
